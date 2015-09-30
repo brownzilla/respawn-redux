@@ -24,7 +24,7 @@ public OnPluginStart() {
 }
 
 public Action:Command_Respawn(client, args) {
-  if (!PlayerIsAlive(client)) {
+  if (!IsPlayerAlive(client)) {
     CPrintToChat(client, PREFIX, "alive");
   } else {
     CS_RespawnPlayer(client);
