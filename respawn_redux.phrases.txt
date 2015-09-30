@@ -6,4 +6,7 @@
   "dead" {
     "en"  "You were {green}respawned with 3.0 seconds of immunity."
   }
+  "unable" {
+    "en"  "You cannot {green}respawn{default} on this map."
+  }
 }
