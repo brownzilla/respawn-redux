@@ -20,7 +20,6 @@ public Plugin:myinfo = {
 
 public OnPluginStart() {
   LoadTranslations("respawn_redux.phrases");
-
   RegConsoleCmd("sm_respawn", Command_Respawn, "Respawns a client");
 }
 
