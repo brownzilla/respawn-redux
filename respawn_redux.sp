@@ -45,6 +45,6 @@ public Action:Command_Respawn(client, args) {
       CPrintToChat(client, PREFIX, "alive");
     }
   } else {
-    CPrintToChat(client, PREFIX, "unable")
+    CPrintToChat(client, PREFIX, "unable");
   }
 }
