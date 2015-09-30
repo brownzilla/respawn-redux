@@ -28,6 +28,7 @@ public Action:Command_Respawn(client, args) {
   if (!PlayerIsAlive(client)) {
     CPrintToChat(client, PREFIX, "alive");
   } else {
-    
+    CS_RespawnPlayer(client);
+    CPrintToChat(client, PREFIX, "dead");
   }
 }
