@@ -1,0 +1,9 @@
+"Phrases"
+{
+  "alive" {
+    "en"  "You're already {green}alive."
+  }
+  "dead" {
+    "en"  "You were {green}respawned with 3.0 seconds of immunity."
+  }
+}

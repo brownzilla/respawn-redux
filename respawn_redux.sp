@@ -10,9 +10,6 @@
 #define PREFIX "[{green}Respawn{default}] %t"
 #define PLUGIN_VERSION "1.0"
 
-new Handle:respawn_enabled = INVALID_HANDLE;
-new Handle:respawn_client = INVALID_HANDLE;
-
 public Plugin:myinfo = {
   name = "Respawn Redux",
   author = "brownzilla",
@@ -23,5 +20,14 @@ public Plugin:myinfo = {
 
 public OnPluginStart() {
   LoadTranslations("respawn_redux.phrases");
-  
+
+  RegConsoleCmd("sm_respawn", Command_Respawn, "Respawns a client");
+}
+
+public Action:Command_Respawn(client, args) {
+  if (!PlayerIsAlive(client)) {
+    CPrintToChat(client, PREFIX, "alive");
+  } else {
+    
+  }
 }
