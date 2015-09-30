@@ -4,7 +4,7 @@
     "en"  "You're already {green}alive."
   }
   "dead" {
-    "en"  "You were {green}respawned with 3.0 seconds of immunity."
+    "en"  "You were {green}respawned{default} with 3.0 seconds of immunity."
   }
   "unable" {
     "en"  "You cannot {green}respawn{default} on this map."
