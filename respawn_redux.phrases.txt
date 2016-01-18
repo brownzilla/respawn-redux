@@ -1,12 +1,12 @@
 "Phrases"
 {
   "alive" {
-    "en"  "You're already {green}alive."
+    "en"  "You're already alive."
   }
   "dead" {
-    "en"  "You were {green}respawned{default} with 3.0 seconds of immunity."
+    "en"  "You were respawned."
   }
   "unable" {
-    "en"  "You cannot {green}respawn{default} on this map."
+    "en"  "You cannot respawn anymore."
   }
 }
